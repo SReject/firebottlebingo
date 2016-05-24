@@ -72,6 +72,12 @@ div#board > div {
     text-align: center;    
     border-right: 1px solid rgba(0, 0, 128, .5);
     border-bottom: 1px solid rgba(0, 0, 128, .5);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 div#board > div[data-checked="true"] {
     background-color: rgba(0, 0, 0, .2);
@@ -92,9 +98,21 @@ div#board > div > div.cellwrapper {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 div#board > div[data-checked="true"] > div.celloverlay {
     background-color: rgba(128,0,0, .25);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 div#board > div:hover:not([data-free="true"]) > div.celloverlay {
     opacity: 1;
