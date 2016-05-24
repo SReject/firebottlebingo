@@ -11,6 +11,7 @@
         '"I\'m sure"',
         '"So Spoopy"',
         '"Don\'t quote that"',
+        '"Real Mature"',
         'Sarcastic "Yes"',
         'Sarcastic "No"',
 
@@ -20,8 +21,9 @@
         'Welcomes Viewer',
         'Thanks Hoster',
         'Thanks New Follower',
-        'Thanks For Donation',
+        'Thanks For Donator',
         'Thanks Subcriber(s)',
+        'Misprounced Name',
 
         // Chat Interaction
         'Insults Chat',
@@ -33,6 +35,14 @@
         'Makes Excuse',
         'Mentions Sparks',
         'Mentions Pro-Account',
+        'Pauses Game to View Link',
+
+        // Viewer Actions
+        'Mature Song Played',
+        'ALL CAPS in Chat',
+        '#TeamWaterbottle in Chat',
+        'Viewer Spends Points',
+        'Non Fire/Water \'bottle\' Username Talks',
 
         // Technical
         'Mentions using FTL',
@@ -53,6 +63,7 @@
         'Hydrates',
         'Adjusts Mic',
         'Wearing Hat',
-        'Not Wearing Hat'
+        'Not Wearing Hat',
+        'Seeks comment from Waterbottle'
     ];
 }());
