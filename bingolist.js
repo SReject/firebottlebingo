@@ -10,6 +10,7 @@
         "\"No death speed run\"",
         "\"I'm sure\"",
         "\"So Spoopy\"",
+        "\"Don't quote that\"",
         "Sarcastic 'Yes'",
         "Sarcastic 'No'",
         
@@ -36,7 +37,7 @@
         "Obs/Tachyon Fails to Capture Game",
         "Switches Ingest Server",
         "Game Crashes",
-        "Soundboard Breaks",
+        "Restarts Soundboard",
         "Scottybot Messes Up",
         
         // Game Play
