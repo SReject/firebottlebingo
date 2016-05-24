@@ -62,7 +62,6 @@
             board.push(list[item]);
             list.splice(item, 1);
         }
-        console.log("board length", board.length);
         
         // clear ui board
         boardUI = document.getElementById("board");
