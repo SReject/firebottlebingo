@@ -32,7 +32,7 @@
         'Evades Question',
         'Makes Excuse',
         'Mentions Sparks',
-        'Mentions Pro-Account'
+        'Mentions Pro-Account',
 
         // Technical
         'Mentions using FTL',
