@@ -34,7 +34,8 @@ div.wrapper {
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,.25);
 }
 div#boardhead,
-div#ruleshead {
+div#ruleshead,
+div#checklisthead {
     background-color: rgb(71,76,158);
     padding: 10px;
     color: #ffcc00;
@@ -43,7 +44,8 @@ div#ruleshead {
     position: relative;
     
 }
-span#newboard {
+span#newboard,
+span#checklistclear {
     position: absolute;
     right: 10px;
     padding-left: 5px;
@@ -55,7 +57,8 @@ span#newboard {
     font-weight: normal;
     cursor: pointer;
 }
-span#newboard:hover {
+span#newboard:hover,
+span#checklistclear:hover {
     background-color: #ffe800;
 }
 div#board {
@@ -139,6 +142,34 @@ div#board div[data-free="true"] {
 div#rules {
     margin-top: 40px;
 }
-div#ruleslist {
+div#ruleslist,
+div#checklist {
     padding: 20px;
+}
+div#checklist div.checklistitem {
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+div#checklist div.checklistitem:hover {
+    padding: 5px 3px;
+    font-weight: bold;
+    background-color: rgba(0,192,0, .25);
+}
+div#checklist label,
+div#checklist input {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
