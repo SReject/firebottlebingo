@@ -14,6 +14,7 @@
         '"Real Mature"',
         'Sarcastic "Yes"',
         'Sarcastic "No"',
+        'Obvious Lie',
 
         // Promotions and Thanks
         'Promotes Another Streamer',
@@ -21,8 +22,9 @@
         'Welcomes Viewer',
         'Thanks Hoster',
         'Thanks New Follower',
-        'Thanks For Donator',
+        'Thanks Donator',
         'Thanks Subcriber(s)',
+        'Thanks for Tweet',
         'Misprounced Name',
 
         // Chat Interaction
@@ -33,14 +35,16 @@
         'Misses Obvious Joke',
         'Evades Question',
         'Makes Excuse',
-        'Mentions Sparks',
-        'Mentions Pro-Account',
         'Pauses Game to View Link',
+        'Mentions The Usage of Sparks',
+        'Mentions Pro-Account',
+
 
         // Viewer Actions
         'Mature Song Played',
-        'ALL CAPS in Chat',
+        'ALL CAPS in Chat (4+ letters required)',
         '#TeamWaterbottle in Chat',
+        '#BlameFirebottle in Chat',
         'Viewer Spends Points',
         'Non Fire/Water \'bottle\' Username Talks',
 
@@ -51,10 +55,12 @@
         'Game Crashes',
         'Restarts Soundboard',
         'Scottybot Messes Up',
+        'Audio Goes Robotic',
+        'Wrong OBS/Tachyon Scene',
 
         // Game Play
-        '3 Deaths in Same Area',
-        '3 Deaths by Same Enemy',
+        '3 Consecutive Deaths in Same Area',
+        '3 Consecutive Deaths by Same Enemy',
         'Overlooks Obvious Route',
         'Changes Game',
 
@@ -64,6 +70,6 @@
         'Adjusts Mic',
         'Wearing Hat',
         'Not Wearing Hat',
-        'Seeks comment from Waterbottle'
+        'Seeks IRL comment from Waterbottle'
     ];
 }());
